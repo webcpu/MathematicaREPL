@@ -9,6 +9,8 @@ Key features of the MathematicaREPL include:
 - Find Selected Function     ⇧⌘F
 
 	Opens documentation about the selected function.
+	
+	
 ![](https://user-images.githubusercontent.com/4646838/27966861-15a56e76-6341-11e7-85c2-9a6907277f33.gif)
 
 ## Binary Installation
