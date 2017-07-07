@@ -24,7 +24,7 @@
 
 <p>Preferences -&gt; Keymap and select the &quot;Mac OS X 10.5+&quot; from the dropdown.</p>
 
-<p>⌘R is the preferred shortcut to evaluating code, however ⌘R is a predefined shortcut in keymap Mac OS X 10.5+, if you want to use ⌘R to evaluate code, you can just remove the shortcut for “Replace” in keymap Mac OS X 10.5+.</p>
+<p>⌘R is the preferred shortcut to evaluate code, however ⌘R is a predefined shortcut in keymap Mac OS X 10.5+, if you want to use ⌘R to evaluate code, you can just remove the shortcut for “Replace” in keymap Mac OS X 10.5+.</p>
 
     ]]></description>
 
