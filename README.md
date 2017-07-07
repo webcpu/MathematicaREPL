@@ -42,8 +42,13 @@ Please make sure your Intellij IDEA’s keymap is Mac OS X 10.5+, otherwise the 
 #### Solve shortcut conflict
 ⌘R is the preferred shortcut to evaluate code, however ⌘R is a predefined shortcut in keymap “Mac OS X 10.5+”, if you want to use ⌘R to evaluate code, you can just remove the shortcut for “Replace” in keymap “Mac OS X 10.5+”, otherwise you can use ⌘5 instead.
 ![](https://user-images.githubusercontent.com/4646838/27966946-6aaf70d8-6341-11e7-80a9-ef1dadbb25db.png)
-## Set up
-1. Download the Workbench template project Hello.zip. 
+
+## Build and Run
+**It's important to use the template project to develop your Wolfram code.**
+If you use the other project, it might not work. MathematicaREPL might not be able to find the REPL notebook. In this case, Hello.nb is the REPL notebook.
+
+1. Download the template project Hello.zip. 
+
 	[ https://github.com/unchartedworks/MathematicaREPL/releases ]
 3. Unzip Hello.zip
 4. Run Intellij IDEA and open directory Hello.
