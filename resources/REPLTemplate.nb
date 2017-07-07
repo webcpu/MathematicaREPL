@@ -1,0 +1,225 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+(* magic=29996224275833 *)
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       184,          7]
+NotebookDataLength[      8122,        217]
+NotebookOptionsPosition[      4970,        122]
+NotebookOutlinePosition[      6987,        185]
+CellTagsIndexPosition[      6897,        179]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{
+   RowBox[{"Get", "[", "\"\<MMAREPL/MMAREPL.m\>\"", "]"}], ";"}], " "}], "\n", 
+ RowBox[{"MMAREPL`loadFiles", "[", "]"}]}], "Input",
+ Editable->False,
+ CellOpen->False,
+ CellTags->"LOADER",ExpressionUUID->"e88a55b3-efb5-4bf3-995f-10461d8002da"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Import","nffil",
+   "\"File not found during \\!\\(\\*RowBox[{\\\"Import\\\"}]\\).\"",2,2,1,
+   27474631512620782834,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.7083515674471188`*^9},
+ CellTags->"LOADER",ExpressionUUID->"c06258f3-1030-4089-9098-677be0b3a4b1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Flatten","normal",
+   "\"Nonatomic expression expected at position \
+\\!\\(\\*RowBox[{\\\"1\\\"}]\\) in \\!\\(\\*RowBox[{\\\"Flatten\\\", \
+\\\"[\\\", \\\"$Failed\\\", \\\"]\\\"}]\\).\"",2,2,2,27474631512620782834,
+   "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.708351567616352*^9},
+ CellTags->"LOADER",ExpressionUUID->"07dea70b-4254-40dd-83a3-8b674598c34b"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringEndsQ","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringEndsQ\\\", \\\"[\\\", \
+RowBox[{\\\"$Failed\\\", \\\",\\\", \\\"\\\\\\\"/Kernel/init.m\\\\\\\"\\\"}], \
+\\\"]\\\"}]\\).\"",2,2,3,27474631512620782834,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.7083515676501017`*^9},
+ CellTags->"LOADER",ExpressionUUID->"275cf17c-f4a9-435c-bff6-36a11c0fe581"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "StringEndsQ","strse",
+   "\"String or list of strings expected at position \\!\\(\\*RowBox[{\\\"1\\\
+\"}]\\) in \\!\\(\\*RowBox[{\\\"StringEndsQ\\\", \\\"[\\\", \
+RowBox[{\\\"$Failed\\\", \\\",\\\", \\\"\\\\\\\"/MMAREPL.m\\\\\\\"\\\"}], \
+\\\"]\\\"}]\\).\"",2,2,4,27474631512620782834,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.70835156768421*^9},
+ CellTags->"LOADER",ExpressionUUID->"553e30c4-1933-4283-a045-aa8133dcb79d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Flatten","argb",
+   "\"\\!\\(\\*RowBox[{\\\"Flatten\\\"}]\\) called with \
+\\!\\(\\*RowBox[{\\\"0\\\"}]\\) arguments; between \
+\\!\\(\\*RowBox[{\\\"1\\\"}]\\) and \\!\\(\\*RowBox[{\\\"3\\\"}]\\) arguments \
+are expected.\"",2,2,5,27474631512620782834,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.708351567717359*^9},
+ CellTags->"LOADER",ExpressionUUID->"f0876cfc-2b20-4e1d-b9b4-2b3247c4b55d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "First","nofirst",
+   "\"\\!\\(\\*RowBox[{\\\"Flatten\\\", \\\"[\\\", \\\"]\\\"}]\\) has zero \
+length and no first element.\"",2,2,6,27474631512620782834,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.708351567751506*^9},
+ CellTags->"LOADER",ExpressionUUID->"f9784584-5ddc-41a6-b903-5849b06843fd"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "Get","stream",
+   "\"\\!\\(\\*RowBox[{\\\"First\\\", \\\"[\\\", RowBox[{\\\"Flatten\\\", \
+\\\"[\\\", \\\"]\\\"}], \\\"]\\\"}]\\) is not a string, SocketObject, \
+InputStream[ ], or OutputStream[ ].\"",2,2,7,27474631512620782834,"Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.708349016651154*^9, 3.708349132222858*^9, 
+  3.708349234410901*^9, 3.7083494607192707`*^9, 3.708351567785007*^9},
+ CellTags->"LOADER",ExpressionUUID->"f7bdbe09-a9cc-496a-a8f6-face2f6b5cd6"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellOpen->True,
+ CellChangeTimes->{3.708349016902626*^9, 3.708349132506263*^9, 
+  3.708349234653212*^9, 3.708349460966156*^9, 3.708351567809558*^9},
+ CellTags->"LOADER",ExpressionUUID->"e88de30a-4d6b-41ae-a31d-5573a259f32c"]
+}, Open  ]],
+
+Cell[BoxData[""], "Input",
+ CellOpen->True,
+ CellChangeTimes->{{3.706169209596184*^9, 3.706169226294729*^9}},
+ CellTags->"REPL",ExpressionUUID->"b8e10afe-0464-4062-9a3f-3e9e8f8ed304"]
+},
+WindowSize->{1280, 685},
+WindowMargins->{{Automatic, 0}, {Automatic, 0}},
+CellOpen->True,
+TaggingRules->{
+ "SEUploaderLastUpdateCheck" -> 3.705734209938566`16.32144925592467*^9, 
+  "SEUploaderVersion" -> {
+   "Version" -> 129, 
+    "Changes" -> {"Fixed copy to clipboard for versions >= 10"}}},
+CellContext->Notebook,
+ShowCellTags->True,
+FrontEndVersion->"11.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 16, \
+2017)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{
+ "LOADER"->{
+  Cell[606, 22, 280, 7, 
+  19, "Input", "ExpressionUUID" -> "e88a55b3-efb5-4bf3-995f-10461d8002da",
+   CellOpen->False,
+   CellTags->"LOADER"],
+  Cell[889, 31, 412, 8, 
+  35, "Message", "ExpressionUUID" -> "c06258f3-1030-4089-9098-677be0b3a4b1",
+   CellTags->"LOADER"],
+  Cell[1304, 41, 511, 10, 
+  35, "Message", "ExpressionUUID" -> "07dea70b-4254-40dd-83a3-8b674598c34b",
+   CellTags->"LOADER"],
+  Cell[1818, 53, 584, 10, 
+  35, "Message", "ExpressionUUID" -> "275cf17c-f4a9-435c-bff6-36a11c0fe581",
+   CellTags->"LOADER"],
+  Cell[2405, 65, 577, 10, 
+  35, "Message", "ExpressionUUID" -> "553e30c4-1933-4283-a045-aa8133dcb79d",
+   CellTags->"LOADER"],
+  Cell[2985, 77, 545, 10, 
+  35, "Message", "ExpressionUUID" -> "f0876cfc-2b20-4e1d-b9b4-2b3247c4b55d",
+   CellTags->"LOADER"],
+  Cell[3533, 89, 447, 8, 
+  35, "Message", "ExpressionUUID" -> "f9784584-5ddc-41a6-b903-5849b06843fd",
+   CellTags->"LOADER"],
+  Cell[3983, 99, 522, 9, 
+  35, "Message", "ExpressionUUID" -> "f7bdbe09-a9cc-496a-a8f6-face2f6b5cd6",
+   CellTags->"LOADER"],
+  Cell[4508, 110, 260, 4, 
+  43, "Output", "ExpressionUUID" -> "e88de30a-4d6b-41ae-a31d-5573a259f32c",
+   CellOpen->True,
+   CellTags->"LOADER"]},
+ "REPL"->{
+  Cell[4783, 117, 183, 3, 
+  43, "Input", "ExpressionUUID" -> "b8e10afe-0464-4062-9a3f-3e9e8f8ed304",
+   CellOpen->True,
+   CellTags->"REPL"]}
+ }
+*)
+(*CellTagsIndex
+CellTagsIndex->{
+ {"LOADER", 5536, 141},
+ {"REPL", 6730, 171}
+ }
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[606, 22, 280, 7, 19, "Input", "ExpressionUUID" -> \
+"e88a55b3-efb5-4bf3-995f-10461d8002da",
+ CellOpen->False,
+ CellTags->"LOADER"],
+Cell[889, 31, 412, 8, 35, "Message", "ExpressionUUID" -> \
+"c06258f3-1030-4089-9098-677be0b3a4b1",
+ CellTags->"LOADER"],
+Cell[1304, 41, 511, 10, 35, "Message", "ExpressionUUID" -> \
+"07dea70b-4254-40dd-83a3-8b674598c34b",
+ CellTags->"LOADER"],
+Cell[1818, 53, 584, 10, 35, "Message", "ExpressionUUID" -> \
+"275cf17c-f4a9-435c-bff6-36a11c0fe581",
+ CellTags->"LOADER"],
+Cell[2405, 65, 577, 10, 35, "Message", "ExpressionUUID" -> \
+"553e30c4-1933-4283-a045-aa8133dcb79d",
+ CellTags->"LOADER"],
+Cell[2985, 77, 545, 10, 35, "Message", "ExpressionUUID" -> \
+"f0876cfc-2b20-4e1d-b9b4-2b3247c4b55d",
+ CellTags->"LOADER"],
+Cell[3533, 89, 447, 8, 35, "Message", "ExpressionUUID" -> \
+"f9784584-5ddc-41a6-b903-5849b06843fd",
+ CellTags->"LOADER"],
+Cell[3983, 99, 522, 9, 35, "Message", "ExpressionUUID" -> \
+"f7bdbe09-a9cc-496a-a8f6-face2f6b5cd6",
+ CellTags->"LOADER"],
+Cell[4508, 110, 260, 4, 43, "Output", "ExpressionUUID" -> \
+"e88de30a-4d6b-41ae-a31d-5573a259f32c",
+ CellOpen->True,
+ CellTags->"LOADER"]
+}, Open  ]],
+Cell[4783, 117, 183, 3, 43, "Input", "ExpressionUUID" -> \
+"b8e10afe-0464-4062-9a3f-3e9e8f8ed304",
+ CellOpen->True,
+ CellTags->"REPL"]
+}
+]
+*)
+

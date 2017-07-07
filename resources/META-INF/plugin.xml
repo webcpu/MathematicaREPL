@@ -1,0 +1,73 @@
+<idea-plugin>
+  <id>com.unchartedworks.mathematicarepl</id>
+  <name>MathematicaREPL</name>
+  <version>0.1.0</version>
+  <vendor email="liang@unchartedworks.com" url="http://www.unchartedworks.com">Unchartedworks</vendor>
+
+  <description><![CDATA[
+       <p><strong>MathematicaREPL for IntelliJ IDEA</strong></p>
+
+<p>MathematicaREPL allows you to evaluate your Mathematica code from Intellij IDEA and display results in a Mathematica notebook. This is a missing feature from Mathematica Support plugin. </p>
+
+<p>Key features of the MathematicaREPL include:</p>
+
+<ul>
+	<li>REPL ⌘5 or ⌘R
+
+		<p>Evaluates code and display results in Mathematica notebook.</p></li>
+	<li>Find Selected Function ⇧⌘F
+
+		<p>Opens documentation about the selected function.</p></li>
+</ul>
+
+<p>Please make sure your Intellij IDEA’s keymap is Mac OS X 10.5+, otherwise the shortcuts above might not work. </p>
+
+<p>Preferences -&gt; Keymap and select the &quot;Mac OS X 10.5+&quot; from the dropdown.</p>
+
+<p>⌘R is the preferred shortcut to evaluating code, however ⌘R is a predefined shortcut in keymap Mac OS X 10.5+, if you want to use ⌘R to evaluate code, you can just remove the shortcut for “Replace” in keymap Mac OS X 10.5+.</p>
+
+    ]]></description>
+
+  <change-notes><![CDATA[
+
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+      <group id="MathematicaREPLActionGroup" text="Run" popup="false">
+      <separator/>
+    <action id="replAction" class="com.unchartedworks.mathematicarepl.actions.REPL" text="REPL"
+            description="REPL">
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl 5"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl R"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl meta alt R"/>
+    </action>
+      <add-to-group group-id="RunMenu" anchor="last"/>
+      </group>
+      <action id="com.unchartedworks.mathematicarepl.action.documentation"
+              class="com.unchartedworks.mathematicarepl.actions.Documentation" text="Find Selected Function"
+              description="Find Selected Function">
+          <add-to-group group-id="HelpMenu" anchor="first"/>
+          <keyboard-shortcut keymap="$default" first-keystroke="shift control F"/>
+      </action>
+  </actions>
+
+    <application-components>
+        <component>
+            <implementation-class>com.unchartedworks.mathematicarepl.actions.REPLApplicationComponent</implementation-class>
+        </component>
+    </application-components>
+</idea-plugin>
