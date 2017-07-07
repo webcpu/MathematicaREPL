@@ -36,7 +36,7 @@ Please make sure your Intellij IDEA’s keymap is Mac OS X 10.5+, otherwise the 
 #### Select Keymap
 1. Open the Preferences dialog (e.g. ⌘,).
 2. In the left-hand pane, select Keymap.
-3. In the rich-hand pane, select the "Mac OS X 10.5+" from the dropdown.
+3. In the right-hand pane, select the "Mac OS X 10.5+" from the dropdown.
 ![](https://user-images.githubusercontent.com/4646838/27966945-6aaf20d8-6341-11e7-8105-e07dc2911a4c.png)
 
 #### Solve shortcut conflict
